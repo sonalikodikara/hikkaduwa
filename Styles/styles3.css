@@ -1,0 +1,110 @@
+img {
+  width:100%;
+  background-image:  url(images/banner2.jpg),  ;
+  height:400px;
+  background-repeat: no-repeat, repeat;
+  padding: 0;
+}
+/*Navigation Bar*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnavbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnavbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topnavbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(232, 104, 49);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.container{
+    width: 50%;
+    margin-right: 40px;
+    padding-left: 20px;
+    font-style: oblique;
+    background-color: antiquewhite;
+    float: left;
+
+}
+div.polaroid{
+    background-color: white;
+    margin:auto ;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.20);
+    padding: 10px;
+   
+}
+
+header,footer {
+    background: #8fe5ef;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #1a1a19;
+    line-height: 40px;
+}
+ 
